@@ -1,0 +1,252 @@
+<!--
+Hokein slides
+Derived from Google IO 2012/2013 HTML5 Slide Template
+-->
+<!DOCTYPE html>
+<html>
+<head>
+  <title>HTML5</title>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="chrome=1">
+  <!--<meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0">-->
+  <!--<meta name="viewport" content="width=device-width, initial-scale=1.0">-->
+  <!--This one seems to work all the time, but really small on ipad-->
+  <!--<meta name="viewport" content="initial-scale=0.4">-->
+  <meta name="apple-mobile-web-app-capable" content="yes">
+  <link rel="stylesheet" media="all" href="theme/css/default.css"> <link rel="stylesheet" media="all" href="theme/css/app.css">
+  <link rel="stylesheet" media="only screen and (max-device-width: 480px)" href="theme/css/phone.css">
+  <base target="_blank"> <!-- This amazingness opens all links in a new tab. -->
+  <script data-main="js/slides" src="js/require-1.0.8.min.js"></script>
+</head>
+<body style="opacity: 0">
+
+<slides class="layout-widescreen">
+
+ <slide class="logoslide nobackground">
+  <article class="flexbox vcenter">
+    <img src="images/html5_banner.png">
+  </article>
+</slide>
+ 
+<slide class="title-slide segue nobackground">
+  <aside class="gdbar"><img src="images/html5_icon_128.png"></aside>
+  <!-- The content of this hgroup is replaced programmatically through the slide_config.json. -->
+  <hgroup class="auto-fadein">
+    <h1 data-config-title><!-- populated from slide_config.json --></h1>
+    <h2 data-config-subtitle><!-- populated from slide_config.json --></h2>
+    <p data-config-presenter><!-- populated from slide_config.json --></p>
+  </hgroup>
+</slide>
+
+
+<slide class="nobackground fill" >
+  
+    <hgroup>
+      <h2>What's HTML5</h2>
+      <h3></h3>
+    </hgroup>
+    <article ><ul>
+<li>A new web standard</li>
+<li>A new web technology</li>
+<li>Add a log of new elements&amp;features(tags, javascript API)</li>
+<li>Enhance web application native ability.</li>
+</ul>
+<aside style="float:right">
+  <img width="800px" height="400px" src="images/html5_features.jpg">
+</aside></article>
+ 
+</slide>
+
+<slide  >
+  
+    <hgroup>
+      <h2>Native App VS Web App VS Hybrid App</h2>
+      <h3></h3>
+    </hgroup>
+    <article ><p><span class="yellow3">Native App</span></p>
+<ul>
+<li>Platform specific native languages(Java with Android, Object-C with IOS)</li>
+</ul>
+<p><span class="green">Web App</span></p>
+<ul>
+<li>Server-side app, a web site rendered on mobile device.</li>
+<li>look and feel like native UI. </li>
+<li>written in HTML5, runs inside mobile web browser(Chrome for android, safari for IOS)</li>
+</ul>
+<p><span class="red">Hybrid App</span></p>
+<ul>
+<li>like native app, written with web technologies(HTML5, CSS&amp;JavaScript)</li>
+<li>runs inside a native container(WebView for Android, UIWebView for IOS)</li>
+</ul></article>
+ 
+</slide>
+
+<slide  >
+  
+    <hgroup>
+      <h2>Some Samples</h2>
+      <h3></h3>
+    </hgroup>
+    <article ><ul>
+<li>Financial Times: <a href="http://apps.ft.com/android/index.html">http://apps.ft.com/android/index.html</a></li>
+<li>Walgreens: <a href="http://m.walgreens.com/mt/www.walgreens.com">http://m.walgreens.com/mt/www.walgreens.com</a> </li>
+</ul>
+<p><img height="375px" width="220px" src="images/financial_times_iphone.png">
+<img height="375px" width="220px" src="images/financial_times_android.png">
+<img height="375px" width="220px" src="images/walgreens_iphone.png">
+<img height="375px" width="220px" src="images/walgreens_android.png"></p></article>
+ 
+</slide>
+
+<slide  >
+  
+    <hgroup>
+      <h2>Native App VS Web App VS Hybrid App</h2>
+      <h3></h3>
+    </hgroup>
+    <article ><table>
+
+<tbody><tr>
+<td> </td>
+<td> <b>Native App</b> </td>
+<td> <b>Web App</b> </td>
+<td> <b>Hybrid App</b>
+</td></tr>
+<tr>
+<td> <b>App Features</b>
+</td></tr>
+<tr>
+<td> Graphics </td>
+<td> Native APIs </td>
+<td> HTML, Canvas, SVG </td>
+<td> HTML, Canvas, SVG
+</td></tr>
+<tr>
+<td> Performance </td>
+<td> Fast </td>
+<td> Slow </td>
+<td> Slow
+</td></tr>
+<tr>
+<td> Native look and feel </td>
+<td> Native </td>
+<td> Emulated </td>
+<td> Emulated
+</td></tr>
+<tr>
+<td> Distribution </td>
+<td> Appstore </td>
+<td> Web </td>
+<td> Appstore
+</td></tr>
+<tr>
+<td> <b>Device Access</b>
+</td></tr>
+<tr>
+<td> Camera </td>
+<td> Yes </td>
+<td> No </td>
+<td> Yes
+</td></tr>
+<tr>
+<td> Notifications </td>
+<td> Yes </td>
+<td> No </td>
+<td> Yes
+</td></tr>
+<tr>
+<td> Offline storage </td>
+<td> Secure file storage </td>
+<td> Shared SQL</td>
+<td> Secure file system, shared SQL
+</td></tr>
+<tr>
+<td> <b>Connectivity</b> </td>
+<td> Online and offline </td>
+<td> Mostly online </td>
+<td> Online and offline
+</td></tr>
+<tr>
+<td> <b>Development skills</b> </td>
+<td> ObjectiveC, Java </td>
+<td> HTML5, CSS, Javascript </td>
+<td> HTML5, CSS, Javascript
+</td></tr></tbody></table></article>
+ 
+</slide>
+
+<slide  >
+  
+    <hgroup>
+      <h2>HTML5 Application Development</h2>
+      <h3></h3>
+    </hgroup>
+    <article ><p>HTML + JavaScript + CSS</p>
+<p>Android:</p>
+<ul>
+<li>WebView</li>
+<li>Only need few platform specific code.</li>
+</ul>
+<p>HTML5 Mobile Application Framework:</p>
+<ul>
+<li>PhoneGap(<a href="http://www.phonegap.com">http://www.phonegap.com</a>)</li>
+<li>Sencha Touch(<a href="http://www.sencha.com/">http://www.sencha.com/</a>)</li>
+</ul>
+<aside style="float:left">
+<img height="180px" width="180px" src="images/phonegap_logo.png">
+</aside>
+
+<aside style="float:right">
+<img height="133px" width="320px" src="images/sencha_logo.png">
+</aside></article>
+ 
+</slide>
+
+<slide  >
+  
+    <hgroup>
+      <h2>Some Concerns</h2>
+      <h3></h3>
+    </hgroup>
+    <article ><ul>
+<li>
+<p>Performance</p>
+</li>
+<li>
+<p>Security</p>
+</li>
+<li>
+<p>Network</p>
+</li>
+</ul></article>
+ 
+</slide>
+
+
+<slide class="thank-you-slide segue nobackground">
+  <aside class="gdbar right"><img src="images/html5_icon_128.png"></aside>
+  <article class="flexbox vleft auto-fadein">
+    <h2>Thank You!</h2>
+    <p>2014.1</p>
+  </article>
+  <p class="auto-fadein" data-config-contact>
+    <!-- populated from slide_config.json -->
+  </p>
+</slide>
+
+<!-- <slide class="logoslide dark nobackground">
+  <article class="flexbox vcenter">
+    <span><img src="images/google_developers_logo_white.png"></span>
+  </article>
+</slide> -->
+
+<slide class="backdrop"></slide>
+
+</slides>
+
+<!--[if IE]>
+  <script src="http://ajax.googleapis.com/ajax/libs/chrome-frame/1/CFInstall.min.js"></script>
+  <script>CFInstall.check({mode: 'overlay'});</script>
+<![endif]-->
+</body>
+</html>
